@@ -1,2 +1,10 @@
 Nada puede malir, sal!
 Andres Muñoz
+
+
+crear carpeta con su nombre completo
+crear dentro de la carpeta:
+    1. archivo con frase chistosa
+    2. imagen chistosa
+    3. crear un programa en python que convierta de decimal a binario y de binario a decimal
+Subir cambios al repositorio
