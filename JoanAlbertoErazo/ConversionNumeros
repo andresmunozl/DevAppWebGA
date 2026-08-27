@@ -1,0 +1,18 @@
+print("CONVERSOR BINARIO Y DECIMAL")
+print("1. Binario a decimal")
+print("2. Decimal a binario")
+
+opcion = input("Seleccione una opción: ")
+
+if opcion == "1":
+    binario = input("Ingrese un número binario: ")
+    decimal = int(binario, 2)
+    print("El número en decimal es:", decimal)
+
+elif opcion == "2":
+    decimal = int(input("Ingrese un número decimal: "))
+    binario = bin(decimal)[2:]
+    print("El número en binario es:", binario)
+
+else:
+    print("Opción no válida")
