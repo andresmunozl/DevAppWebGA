@@ -1,0 +1,54 @@
+def decimal_a_binario(numero):
+	"""Convierte un numero decimal entero no negativo a binario."""
+	return bin(numero)[2:]
+
+
+def binario_a_decimal(numero):
+	"""Convierte una cadena binaria valida a un numero decimal."""
+	return int(numero, 2)
+
+
+def solicitar_decimal():
+	while True:
+		entrada = input("Ingrese un numero decimal entero no negativo: ").strip()
+		try:
+			numero = int(entrada)
+			if numero < 0:
+				raise ValueError
+			return numero
+		except ValueError:
+			print("Entrada no valida. Use un entero no negativo.")
+
+
+def solicitar_binario():
+	while True:
+		entrada = input("Ingrese un numero binario: ").strip()
+		if entrada and all(digito in "01" for digito in entrada):
+			return entrada
+		print("Entrada no valida. Use solo digitos 0 y 1.")
+
+
+def main():
+	while True:
+		print("\nCONVERSOR NUMERICO")
+		print("1. Decimal a binario")
+		print("2. Binario a decimal")
+		print("3. Salir")
+
+		opcion = input("Seleccione una opcion: ").strip()
+
+		if opcion == "1":
+			numero = solicitar_decimal()
+			print(f"Resultado: {decimal_a_binario(numero)}")
+		elif opcion == "2":
+			numero = solicitar_binario()
+			print(f"Resultado: {binario_a_decimal(numero)}")
+		elif opcion == "3":
+			print("Programa finalizado.")
+			break
+		else:
+			print("Opcion no valida.")
+
+
+if __name__ == "__main__":
+	main()

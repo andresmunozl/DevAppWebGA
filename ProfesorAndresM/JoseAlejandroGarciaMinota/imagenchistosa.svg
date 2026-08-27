@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Computador chistoso</title>
+  <desc id="desc">Un computador sonriente dice: No tengo bugs, tengo mascotas digitales.</desc>
+  <rect width="900" height="600" fill="#fff4d6"/>
+  <circle cx="120" cy="95" r="42" fill="#ffd166"/>
+  <circle cx="795" cy="475" r="58" fill="#ef8354"/>
+  <path d="M0 485 Q225 420 450 485 T900 485 V600 H0Z" fill="#84a59d"/>
+  <rect x="205" y="125" width="490" height="300" rx="28" fill="#2f4858"/>
+  <rect x="235" y="155" width="430" height="240" rx="14" fill="#bde0fe"/>
+  <circle cx="365" cy="255" r="22" fill="#2f4858"/>
+  <circle cx="535" cy="255" r="22" fill="#2f4858"/>
+  <path d="M350 315 Q450 385 550 315" fill="none" stroke="#2f4858" stroke-width="14" stroke-linecap="round"/>
+  <path d="M390 425 H510 L550 485 H350Z" fill="#2f4858"/>
+  <rect x="300" y="485" width="300" height="22" rx="11" fill="#2f4858"/>
+  <path d="M160 170 Q85 125 70 205 Q95 260 170 220" fill="#f7b267" stroke="#2f4858" stroke-width="10"/>
+  <path d="M740 160 Q825 115 840 205 Q815 260 730 220" fill="#f7b267" stroke="#2f4858" stroke-width="10"/>
+  <rect x="185" y="45" width="530" height="70" rx="35" fill="#ffffff" stroke="#2f4858" stroke-width="8"/>
+  <text x="450" y="91" text-anchor="middle" font-family="Trebuchet MS, sans-serif" font-size="30" font-weight="bold" fill="#2f4858">No tengo bugs...</text>
+  <text x="450" y="555" text-anchor="middle" font-family="Trebuchet MS, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">Tengo mascotas digitales.</text>
+</svg>
