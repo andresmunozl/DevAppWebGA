@@ -1,4 +1,4 @@
-a = 4
-b = 5
+NumeroUno = 5
+NumeroDos = 10
 
-print(a+b)
+print(NumeroUno+NumeroDos)
