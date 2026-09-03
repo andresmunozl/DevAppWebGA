@@ -1,0 +1,18 @@
+*{
+    margin: 10px
+    background-color= rgb(231, 237, 248);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    color:aliceblue;
+}
+
+.colortexto {
+    color:rgb(205, 226, 131);
+    font-size: 45px;
+}
+
+.tipotexto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
