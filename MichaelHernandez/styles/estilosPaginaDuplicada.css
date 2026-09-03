@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+img {
+    padding-top: 1em;
+    width: 20%;
+}
+
+nav {
+    background-color: rgb(29, 12, 189);
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+    
+}
+
+a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color:rgb(7, 240, 248);
+    text-decoration: none;
+    font-size: 20px;
+}
