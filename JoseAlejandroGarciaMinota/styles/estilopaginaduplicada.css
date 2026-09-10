@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+img {
+    width: 30%;
+    padding: 1em;
+}
+
+nav {
+    background-color: steelblue;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: tomato;
+    
+
+}

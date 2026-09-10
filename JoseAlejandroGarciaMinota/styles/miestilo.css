@@ -1,0 +1,16 @@
+body {
+    margin: 5px;
+    background-color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    p{
+        color: rgb(246, 15, 238);
+    }
+
+    .colortexto{
+        color: blue;
+        font-size: 16px;
+    }
+    
+
+
+}
