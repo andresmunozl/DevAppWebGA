@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+img {
+    width: 100px;
+    margin: 20px;
+}
+
+nav {
+    background-color: rgb(55, 115, 194);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+}
+
+section {
+    display: flex;
+    padding: 25px 20px;
+}
+
+article {
+    width: 65%;
+    margin: 10px;
+}
+
+article p {
+    border: 1px solid gray;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+aside {
+    width: 30%;
+    margin: 10px;
+}
+
+aside p {
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(55, 115, 194);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
