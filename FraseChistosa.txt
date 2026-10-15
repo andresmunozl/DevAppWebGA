@@ -1,5 +1,7 @@
 Nada puede malir, sal!
 Andres Muñoz
+<<<<<<< HEAD
+=======
 
 
 crear carpeta con su nombre completo
@@ -8,3 +10,4 @@ crear dentro de la carpeta:
     2. imagen chistosa
     3. crear un programa en python que convierta de decimal a binario y de binario a decimal
 Subir cambios al repositorio
+>>>>>>> d4db8f01b8a81f8f9d03d310e57a1c140ba8b2f8
